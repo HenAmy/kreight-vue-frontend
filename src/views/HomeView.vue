@@ -77,8 +77,8 @@
             </div>
             <h3 class="text-xl font-bold text-left">Manage Bookings</h3>
             <p class="text-left">
-              The ability to use a smartphone, tablet, or computer to access your account means your
-              files follow you everywhere.
+              Plan your bookings to ensure you fill your calendar diligently to accommodate all
+              requests by offering spots early without worrying about conflicts.
             </p>
           </div>
           <!-- Item 2 -->
@@ -86,10 +86,10 @@
             <div class="flex items-center h-[20px] mb-[16px]">
               <PhClock color="#01C38D" weight="light" :size="40" />
             </div>
-            <h3 class="text-xl font-bold text-left">Set Business Hours</h3>
+            <h3 class="text-xl font-bold text-left">Set Business Days</h3>
             <p class="max-w-md text-left">
-              The ability to use a smartphone, tablet, or computer to access your account means your
-              files follow you everywhere.
+              Setting working days and times is critical for creating a clear routine and increasing
+              productivity. By carefully organizing when you will devote your time to work
             </p>
           </div>
         </div>
@@ -105,19 +105,19 @@
             </div>
             <h3 class="text-xl font-bold text-left">Attach important notes</h3>
             <p class="max-w-md text-left">
-              The ability to use a smartphone, tablet, or computer to access your account means your
-              files follow you everywhere.
+              Attach notes to each booking with changes or reminders, helping you stay organized and
+              on track with each booking.
             </p>
           </div>
           <!-- Item 4 -->
           <div class="flex flex-col space-y-2 md:w-1/2">
             <div class="flex items-center h-[20px] mb-[16px]">
-              <PhLinkSimple color="#01C38D" weight="light" :size="40" />
+              <PhRewind color="#01C38D" weight="light" :size="40" />
             </div>
-            <h3 class="text-xl font-bold text-left">Share your booking link</h3>
+            <h3 class="text-xl font-bold text-left">View past bookings</h3>
             <p class="max-w-md text-left">
-              The ability to use a smartphone, tablet, or computer to access your account means your
-              files follow you everywhere.
+              Look back at all the bookings you have had, including dates, clients, and any notes or
+              details associated with them.
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@
             For Your Clients
           </div>
           <h4 class="text-3xl font-bold lg:text-5xl lg:text-left font-mainFont text-secondary">
-            Share access to your profile with you clients
+            Share access to your profile with your clients
           </h4>
           <p class="text-md md:text-lg">Let your clients know your schedule</p>
         </div>
@@ -164,63 +164,65 @@
     <!-- Container -->
     <div class="container mx-auto lg:px-6 pt-12">
       <!-- Boxes -->
-      <div class="relative flex flex-col w-full space-y-6 lg:flex-row md:space-y-0 lg:space-x-12">
+      <div class="relative flex flex-col w-full space-y-20 lg:flex-row md:space-y-0 lg:space-x-12">
         <!-- Box 1 -->
-        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
-          <p class="text-sm leading-5 md:text-md">
-            Fylo has improved our team productivity by an order of magnitude. Since making the
-            switch our team has become a well-oiled collaboration machine.
+        <div class="flex flex-col px-6 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
+          <p class="md:text-md">
+            I cannot recommend the Kreight enough! As a busy photographer, managing my schedule has
+            always been a struggle. But with this platform, my clients know my schedule beforehand.
           </p>
           <!-- Customer Info -->
           <div class="flex space-x-4">
-            <img
+            <!-- <img
               src="../../public/assets/img/kreight-favicon.png"
               alt=""
               class="w-10 h-10 rounded-full"
-            />
+            /> -->
             <div>
-              <h5 class="text-sm font-semibold">Qlimax</h5>
-              <p class="text-xs font-extralight">Photographer</p>
+              <h5 class="font-semibold">Qlimax</h5>
+              <p class="text-sm font-extralight">Photographer</p>
             </div>
           </div>
         </div>
 
         <!-- Box 2 -->
-        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
-          <p class="text-sm leading-5 md:text-md">
-            Fylo has improved our team productivity by an order of magnitude. Since making the
-            switch our team has become a well-oiled collaboration machine.
+        <div class="flex flex-col px-6 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
+          <p class="md:text-md">
+            This platform has truly transformed the way I manage my schedule and has saved me so
+            much time and stress. Thank you, Kreight, for making my life as a creative so much
+            easier!
           </p>
           <!-- Customer Info -->
           <div class="flex space-x-4">
-            <img
+            <!-- <img
               src="../../public/assets/img/kreight-favicon.png"
               alt=""
               class="w-10 h-10 rounded-full"
-            />
+            /> -->
             <div>
-              <h5 class="text-sm font-semibold">Jessica</h5>
-              <p class="text-xs font-extralight">Model</p>
+              <h5 class="font-semibold">Jessica</h5>
+              <p class="text-sm font-extralight">Model</p>
             </div>
           </div>
         </div>
 
         <!-- Box 3 -->
-        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
-          <p class="text-sm leading-5 md:text-md">
-            Fylo has improved our team productivity by an order of magnitude. Since making the
-            switch our team has become a well-oiled collaboration machine.
+        <div class="flex flex-col px-6 space-y-6 rounded-lg bg-gray-100 lg:w-1/3">
+          <p class="md:text-md">
+            I love how I can easily manage my calendar & set my working schedule. And the best part
+            is? I can easily share my profile link with clients, making the booking process a
+            breeze.
           </p>
           <!-- Customer Info -->
           <div class="flex space-x-4">
-            <img
+            <!-- <img
               src="../../public/assets/img/kreight-favicon.png"
               alt=""
               class="w-10 h-10 rounded-full"
-            />
+            /> -->
             <div>
-              <h5 class="text-sm font-semibold">LJ</h5>
-              <p class="text-xs font-extralight">Photographer</p>
+              <h5 class="font-semibold">LJ</h5>
+              <p class="text-sm font-extralight">Photographer</p>
             </div>
           </div>
         </div>
@@ -247,8 +249,8 @@
       <!-- Boxes -->
       <div class="relative lg:space-y-0 flex flex-col w-full space-y-6 lg:flex-row lg:space-x-12">
         <!-- Box 1 -->
-        <div
-          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont"
+        <!-- <div
+          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont shadow-md"
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Call Us</h5>
           <p class="text-sm leading-5 md:text-lg">
@@ -256,11 +258,12 @@
             us for assistance during these hours
           </p>
           <PhPhoneCall color="white" weight="light" :size="72" />
-        </div>
+        </div> -->
 
         <!-- Box 2 -->
-        <div
-          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont"
+        <a
+          href="mailto:henry.amihereha@gmail.com"
+          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/2 font-mainFont shadow-xl"
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Email Us</h5>
           <p class="text-sm leading-5 md:text-lg">
@@ -269,11 +272,13 @@
           </p>
           <!-- Customer Info -->
           <PhAt color="white" weight="light" :size="72" />
-        </div>
+        </a>
 
         <!-- Box 3 -->
-        <div
-          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont"
+        <a
+          target="_blank"
+          href="https://discord.gg/t2fA7KKT85"
+          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/2 font-mainFont shadow-xl"
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Community</h5>
           <p class="text-sm leading-5 md:text-lg">
@@ -282,7 +287,7 @@
           </p>
           <!-- Customer Info -->
           <PhDiscordLogo color="white" weight="light" :size="72" />
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -340,10 +345,11 @@ import {
   PhCalendarBlank,
   PhClock,
   PhNote,
-  PhLinkSimple,
+  // PhLinkSimple,
   PhDiscordLogo,
   PhAt,
-  PhPhoneCall,
+  PhRewind,
+  // PhPhoneCall,
 } from '@phosphor-icons/vue';
 </script>
 

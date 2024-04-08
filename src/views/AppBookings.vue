@@ -181,13 +181,15 @@ export default {
   },
 
   created() {
-    this.loadingSpinner = true;
+    // this.loadingSpinner = true;
 
-    // this.loadingSpinner = false;
-    setTimeout(() => {
+    if (this.requestBookings.length) {
       this.bookingRequests();
-      this.loadingSpinner = false;
-    }, 2000);
+      // this.loadingSpinner = false;
+    }
+    // setTimeout(() => {
+
+    // }, 2000);
 
     const { tab } = this.$route.query;
     this.tab = tab === 'upcoming' || tab === 'requests' ? tab : this.$route.query.s;
