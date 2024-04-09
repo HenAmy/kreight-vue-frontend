@@ -249,21 +249,23 @@
       <!-- Boxes -->
       <div class="relative lg:space-y-0 flex flex-col w-full space-y-6 lg:flex-row lg:space-x-12">
         <!-- Box 1 -->
-        <!-- <div
+        <a
+          target="_blank"
+          href="https://www.instagram.com/kreightives?igsh=MWthajljOWo2eDNt&utm_source=qr"
           class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont shadow-md"
         >
-          <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Call Us</h5>
+          <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">DM Us</h5>
           <p class="text-sm leading-5 md:text-lg">
-            We offer convenient chat support hours from 9am to 5pm GMT, you can easily reach out to
-            us for assistance during these hours
+            Visit us on instagram to stay updated on features and products we are working on. You
+            can send us a DM as well
           </p>
-          <PhPhoneCall color="white" weight="light" :size="72" />
-        </div> -->
+          <PhInstagramLogo color="white" weight="light" :size="72" />
+        </a>
 
         <!-- Box 2 -->
         <a
           href="mailto:henry.amihereha@gmail.com"
-          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/2 font-mainFont shadow-xl"
+          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont shadow-xl"
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Email Us</h5>
           <p class="text-sm leading-5 md:text-lg">
@@ -278,7 +280,7 @@
         <a
           target="_blank"
           href="https://discord.gg/t2fA7KKT85"
-          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/2 font-mainFont shadow-xl"
+          class="flex flex-col p-10 space-y-6 rounded-xl bg-secondary text-white lg:w-1/3 font-mainFont shadow-xl"
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Community</h5>
           <p class="text-sm leading-5 md:text-lg">
@@ -349,6 +351,7 @@ import {
   PhDiscordLogo,
   PhAt,
   PhRewind,
+  PhInstagramLogo,
   // PhPhoneCall,
 } from '@phosphor-icons/vue';
 </script>
