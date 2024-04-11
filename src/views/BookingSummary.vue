@@ -207,15 +207,16 @@ export default {
         method: 'GET',
       });
 
-      if (this.$route.params.id != response.data.response.booking._id) {
-        this.$router.push({ name: 'notfound' });
-        return;
-      }
+      // if (this.$route.params.id != response.data.response.booking._id) {
+      //   this.$router.push({ name: 'notfound' });
+      //   return;
+      // }
 
       // console.log(response.data.response.booking);
       this.booking = response.data.response.booking;
     } catch (error) {
       console.log('Error: ', error);
+      this.$router.push({ name: 'notfound' });
     }
 
     //Fetch user with params
