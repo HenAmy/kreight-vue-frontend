@@ -3,13 +3,13 @@
   <div class="p-2 bg-primary md:hidden flex"></div>
 
   <div class="flex flex-col mx-auto md:flex-row md:space-x-10">
-    <!-- Image -->
-    <div class="md:w-1/2 h-screen bg-primary md:flex items-center justify-center hidden">
-      <img class="p-32 sm:p-32" src="" alt="" />
+    <!-- Left Side -->
+    <div class="md:w-1/2 bg-primary md:flex items-center justify-center hidden">
+      <img class="p-32 sm:p-32" src="../../public/assets/img/icons-group.png" alt="" />
     </div>
 
     <!-- Content -->
-    <div class="flex flex-col md:w-1/2 p-8 justify-center space-y-10">
+    <div class="flex flex-col md:w-1/2 p-8 justify-center">
       <div class="flex space-x-1 justify-between mb-10">
         <router-link :to="{ name: 'home' }">
           <img
@@ -23,19 +23,19 @@
             </a> -->
       </div>
 
-      <div class="space-y-8">
+      <div class="space-y-3">
         <h5 class="text-3xl font-bold text-left text-text font-mainFont">Email Confirmation</h5>
-      </div>
-      <div class="flex flex-col space-y-16">
-        <p class="font-mainFont text-xl">
-          We sent an email to your email address to confirm your identity. Please confirm your email
-          address to start your Kreight journey
+        <p class="font-mainFont text-md">
+          We sent an email to your email address. Please check your email address to reset your
+          password
         </p>
+      </div>
+      <div class="flex flex-col mt-10">
         <router-link
-          :to="{ name: 'signin' }"
+          :to="{ name: 'home' }"
           class="px-3 py-3 flex justify-center text-white bg-secondary rounded-md focus:outline-none font-mainFont text-[16px]"
         >
-          Resend Email
+          Go to homepage
         </router-link>
       </div>
     </div>

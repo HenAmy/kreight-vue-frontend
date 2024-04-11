@@ -204,7 +204,7 @@
                   v-model="description"
                   type="text"
                   placeholder="Description"
-                  class="rounded-md bg-background px-4 py-3 focus:outline-none text-[16px] text-black"
+                  class="rounded-md bg-white px-4 py-3 text-black"
                 />
                 <ErrorMessage class="text-red-600 text-sm" name="description" />
                 <!-- Actions -->

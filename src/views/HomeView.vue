@@ -301,21 +301,21 @@
       <h5 class="mx-auto space-y-10 text-4xl font-bold text-center text-text sm:text-5xl">
         Begin your journey to organize your business
       </h5>
-      <div class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+      <div class="flex flex-col space-y-6 md:flex-row md:space-y-0 md:space-x-6 w-full">
         <!-- Form -->
         <form
           id="link-form"
-          class="relative flex flex-col w-full space-y-4 rounded-lg md:flex-row md:space-y-0 md:space-x-3"
+          class="flex flex-col justify-center w-full space-y-4 rounded-lg md:flex-row md:space-y-0 md:space-x-3"
         >
           <input
             type="text"
             v-model="business_name"
-            class="flex-1 p-3 rounded-md w-full placeholder-placeholder bg-background px-10 py-3 focus:outline-none"
+            class="px-5 py-3 rounded-md md:w-1/3 placeholder-placeholder bg-background"
             placeholder="Enter business name"
             id="link-input"
           />
           <button
-            @click="businessName(business_name)"
+            @click.prevent="businessName(business_name)"
             class="px-10 py-3 text-white bg-secondary rounded-md focus:outline-none md:py-2"
           >
             Get Started

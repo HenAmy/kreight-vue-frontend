@@ -4,6 +4,7 @@ const Home = () => import('@/views/HomeView.vue');
 const GetStarted = () => import('@/views/GetStarted.vue');
 const SignIn = () => import('@/views/SignIn.vue');
 const ForgotPassword = () => import('@/views/ForgotPassword.vue');
+const ConfirmEmail = () => import('@/views/ConfirmEmail.vue');
 
 // import Home from '@/views/HomeView.vue';
 // import SignIn from '@/views/SignIn.vue';
@@ -66,11 +67,11 @@ const routes = [
   //   path: '/reset-password',
   //   component: ResetPassword,
   // },
-  // {
-  //   name: 'confirmemail',
-  //   path: '/confirm-email',
-  //   component: ConfirmEmail,
-  // },
+  {
+    name: 'confirmemail',
+    path: '/confirm-email',
+    component: ConfirmEmail,
+  },
   {
     name: 'dashboard',
     path: '/dashboard',

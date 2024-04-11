@@ -130,7 +130,7 @@
                     class="py-1 px-4 border font-medium text-sm rounded-2xl flex items-center justify-center bg-white border-placeholder"
                     :class="
                       errorDates.includes(new Date(b).toDateString())
-                        ? 'text-white bg-red-400 border-red-600'
+                        ? 'text-error bg-red-400 border-red-600'
                         : 'text-text bg-white border-placeholder'
                     "
                   >

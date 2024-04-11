@@ -24,6 +24,7 @@ export default defineStore('user', {
 
       this.bookingRequestsMini(5);
       this.bookingRequests();
+      this.userDays();
       this.bookingUpcoming(this.user._id);
     },
 

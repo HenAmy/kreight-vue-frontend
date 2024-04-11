@@ -18,7 +18,7 @@
           name="oldpassword"
           type="password"
           placeholder="Enter your current password"
-          class="rounded-md bg-background px-4 py-3 focus:outline-none text-sm w-full"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
         />
         <ErrorMessage class="text-red-600 text-sm" name="oldpassword" />
       </div>
@@ -31,7 +31,7 @@
           name="newpassword"
           type="password"
           placeholder="Enter your new password"
-          class="rounded-md bg-background px-4 py-3 focus:outline-none text-sm w-full"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
         />
         <ErrorMessage class="text-red-600 text-sm" name="newpassword" />
       </div>
@@ -44,7 +44,7 @@
           name="confirmpassword"
           type="password"
           placeholder="Re-enter your new password"
-          class="rounded-md bg-background px-4 py-3 focus:outline-none text-sm w-full"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
         />
         <ErrorMessage class="text-red-600 text-sm" name="confirmpassword" />
       </div>

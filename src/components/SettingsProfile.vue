@@ -36,7 +36,7 @@
           type="link"
           name="business_photo_url"
           placeholder="Enter business photo url"
-          class="rounded-md text-sm cursor-pointer focus:outline-dashed focus:outline-2 focus:outline-primary bg-background px-4 py-3 w-full"
+          class="rounded-md text-sm cursor-pointer focus:outline-dashed focus:outline-2 focus:outline-primary bg-white border border-[#ddd] px-4 py-3 w-full"
         />
         <ErrorMessage class="text-red-600 text-sm" name="business_photo_url" />
         <p
@@ -57,7 +57,7 @@
           v-model="user.business_name"
           name="business_name"
           placeholder="Enter business name"
-          class="rounded-md bg-background px-4 py-3 focus:outline-none text-sm text-black w-full"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
         />
         <ErrorMessage class="text-red-600 text-sm" name="business_name" />
       </div>
@@ -73,7 +73,7 @@
         name="bio"
         type="text"
         placeholder="Enter bio for your booking link"
-        class="rounded-md px-4 py-3 bg-background focus:outline-none text-sm w-full"
+        class="rounded-md px-4 py-3 bg-white border border-[#ddd] focus:outline-none text-sm w-full"
       />
     </div>
 

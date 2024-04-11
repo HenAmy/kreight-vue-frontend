@@ -267,7 +267,7 @@
                   Check your email address
                 </div>
                 <div
-                  @click.prevent="reloadComponent"
+                  @click="reloadComponent"
                   class="px-16 py-3 flex-1 m-auto text-text bg-transparent rounded-md text-md cursor-pointer"
                 >
                   Make another booking
@@ -617,6 +617,10 @@ export default {
         this.whatsappValid = whatsObject.valid;
         // console.log('Phone is invalid');
       }
+    },
+
+    reloadComponent() {
+      this.$router.go(0);
     },
   },
 };
