@@ -96,7 +96,8 @@
               <div class="space-y-8">
                 <!-- Selected Dates -->
                 <div class="flex flex-col space-y-1">
-                  <label class="font-bold text-sm">Selected Date(s)</label>
+                  <label class="font-bold text-sm">Working Day(s)</label>
+                  <label class="text-sm">Select from {{ user.business_name }}'s working days</label>
                   <VueDatePicker
                     name="datepicker"
                     v-model="selecteddate"
@@ -257,18 +258,18 @@
                     alt="party"
                   />
                 </div>
-                <p class="flex justify-center text-center px-28">
+                <p class="flex justify-center text-center md:px-28">
                   Great!!! You have made your booking to Jema Photography. Check your email address
                   to for a link to your booking summary
                 </p>
               </div>
               <div class="flex flex-col mx-auto space-y-2">
-                <div class="px-16 py-3 flex-1 m-auto text-white bg-primary rounded-md text-md">
+                <div class="px-8 py-3 flex-1 m-auto text-white bg-primary rounded-md text-md">
                   Check your email address
                 </div>
                 <div
                   @click="reloadComponent"
-                  class="px-16 py-3 flex-1 m-auto text-text bg-transparent rounded-md text-md cursor-pointer"
+                  class="px-8 py-3 flex-1 m-auto text-text bg-transparent rounded-md text-md cursor-pointer"
                 >
                   Make another booking
                 </div>
