@@ -20,13 +20,13 @@
     <div class="flex flex-col mt-4 space-y-4 justify-center p-1 w-full">
       <router-link
         :to="{ name: 'signin' }"
-        class="px-6 py-3 text-text bg-white rounded-md focus:outline-none font-semibold text-md text-center"
+        class="px-6 py-4 text-text bg-white rounded-md focus:outline-none font-medium text-md text-center"
       >
         Sign In
       </router-link>
       <router-link
         :to="{ name: 'getstarted' }"
-        class="px-6 py-3 text-white bg-secondary border rounded-md focus:outline-none md:py-4 text-md text-center"
+        class="px-6 py-4 text-white bg-secondary border rounded-md focus:outline-none font-medium text-md text-center"
       >
         Get Started
       </router-link>

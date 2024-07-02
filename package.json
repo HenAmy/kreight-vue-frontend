@@ -25,6 +25,7 @@
     "vee-validate": "^4.12.6",
     "vue": "^3.4.21",
     "vue-dataset": "^1.1.18",
+    "vue-gtag": "^2.0.1",
     "vue-router": "^4.3.0",
     "vue-simple-calendar": "^7.1.0",
     "vue-tel-input": "^8.3.1"

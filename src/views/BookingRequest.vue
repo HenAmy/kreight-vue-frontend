@@ -258,7 +258,7 @@
             </div>
             <!-- Actions -->
             <div
-              v-show="booking.status === 'Pending' && !actionsBooking"
+              v-show="booking.status === 'Pending' && !actionsBooking && !showReschedule"
               class="flex flex-col space-y-2"
             >
               <button

@@ -34,8 +34,8 @@
               id="link-input"
             />
             <button
-              @click="businessName(business_name)"
-              class="px-10 py-2 text-white bg-secondary rounded-md hover:bg-cyanLight focus:outline-none md:py-2"
+              @click.prevent="businessName(business_name)"
+              class="px-10 py-4 text-white bg-secondary rounded-md focus:outline-none"
             >
               Get Started
             </button>
@@ -104,7 +104,7 @@
               <PhNote color="#01C38D" weight="light" :size="40" />
             </div>
             <h3 class="text-xl font-bold text-left">Attach important notes</h3>
-            <p class="max-w-md text-left">
+            <p class="text-left">
               Attach notes to each booking with changes or reminders, helping you stay organized and
               on track with each booking.
             </p>
@@ -115,7 +115,7 @@
               <PhRewind color="#01C38D" weight="light" :size="40" />
             </div>
             <h3 class="text-xl font-bold text-left">View past bookings</h3>
-            <p class="max-w-md text-left">
+            <p class="text-left">
               Look back at all the bookings you have had, including dates, clients, and any notes or
               details associated with them.
             </p>
@@ -284,7 +284,7 @@
         >
           <h5 class="text-3xl font-mainFont font-semibold md:text-2xl">Community</h5>
           <p class="text-sm leading-5 md:text-lg">
-            Share your ideas, collaborate on projects, and gain inspiration from others who share
+            Share your ideas, collaborate on projects and gain inspiration from others who share
             your passion for creativity.
           </p>
           <!-- Customer Info -->

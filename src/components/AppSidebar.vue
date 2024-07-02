@@ -33,15 +33,6 @@
           <span class="text-sm">Dashboard</span>
         </router-link>
 
-        <!-- Calendar -->
-        <router-link
-          :to="{ name: 'calendar' }"
-          class="flex items-center px-4 py-2 mt-2 text-gray gap-3"
-        >
-          <PhCalendar weight="fill" :size="28" />
-          <span class="text-sm">Calendar</span>
-        </router-link>
-
         <!-- Bookings -->
         <router-link
           :to="{ name: 'bookings', query: { s: 'requests' } }"
@@ -49,6 +40,15 @@
         >
           <PhCalendarCheck weight="fill" :size="28" />
           <span class="text-sm">Bookings</span>
+        </router-link>
+
+        <!-- Calendar -->
+        <router-link
+          :to="{ name: 'calendar' }"
+          class="flex items-center px-4 py-2 mt-2 text-gray gap-3"
+        >
+          <PhCalendar weight="fill" :size="28" />
+          <span class="text-sm">Calendar</span>
         </router-link>
 
         <!-- Past Bookings / History -->
