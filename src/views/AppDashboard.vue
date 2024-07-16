@@ -38,7 +38,7 @@
             <input
               type="url"
               disabled
-              v-model="user.shorten_link"
+              v-model="user.business_link"
               class="rounded-md bg-disabled px-4 py-3 focus:outline-none font-mainFont text-[14px] text-black"
             />
             <button
@@ -259,7 +259,7 @@ export default {
     // ...mapActions(useUserStore, ['userDays']),
 
     async copyLink() {
-      let text = `${this.user.shorten_link}`;
+      let text = `${this.user.business_link}`;
       await navigator.clipboard.writeText(text);
       this.copied = true;
       setTimeout(() => {
