@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="761" height="617" viewBox="0 0 761 617">
+  <defs>
+    <filter id="Rectangle_272" x="376" y="24" width="387" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_272-2" x="-2" y="142" width="387" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_272-3" x="-2" y="-115" width="387" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_272-4" x="-2" y="399" width="387" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_272-5" x="376" y="281" width="387" height="260" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="761" height="617"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="761" height="617" fill="rgba(255,255,255,0)"/>
+    <g id="Group_1390" data-name="Group 1390" transform="translate(189 -5775)">
+      <g transform="matrix(1, 0, 0, 1, -189, 5775)" filter="url(#Rectangle_272)">
+        <rect id="Rectangle_272-6" data-name="Rectangle 272" width="363" height="236" rx="5" transform="translate(388 36)" fill="#fff"/>
+      </g>
+      <text id="Click_Here" data-name="Click Here" transform="translate(223 5835)" fill="#191e29" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="16">I cannot recommend the Kreight enough! </tspan><tspan x="0" y="38">As a busy photographer, managing my </tspan><tspan x="0" y="60">schedule has always been a struggle. </tspan><tspan x="0" y="82">But with this platform, my clients know </tspan><tspan x="0" y="104">my schedule beforehand.</tspan></text>
+      <text id="Click_Here-2" data-name="Click Here" transform="translate(223 5999)" fill="#191e29" font-size="16" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Quinn</tspan></text>
+      <text id="Click_Here-3" data-name="Click Here" transform="translate(223 6019)" fill="#191e29" font-size="16" font-family="Inter-Regular, Inter"><tspan x="0" y="0">Photographer</tspan></text>
+    </g>
+    <g id="Group_1402" data-name="Group 1402" transform="translate(-189 -5657)">
+      <g transform="matrix(1, 0, 0, 1, 189, 5657)" filter="url(#Rectangle_272-2)">
+        <rect id="Rectangle_272-7" data-name="Rectangle 272" width="363" height="236" rx="5" transform="translate(10 154)" fill="#fff"/>
+      </g>
+      <text id="Click_Here-4" data-name="Click Here" transform="translate(223 5835)" fill="#191e29" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="16">Kreight&apos;s web app revolutionized how I </tspan><tspan x="0" y="38">manage my tasks and projects. The </tspan><tspan x="0" y="60">user-friendly interface and seamless </tspan><tspan x="0" y="82">functionality make it a must-have tool for </tspan><tspan x="0" y="104">any team.</tspan></text>
+      <text id="Click_Here-5" data-name="Click Here" transform="translate(223 5999)" fill="#191e29" font-size="16" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Tate</tspan></text>
+      <text id="Click_Here-6" data-name="Click Here" transform="translate(223 6019)" fill="#191e29" font-size="16" font-family="Inter-Regular, Inter"><tspan x="0" y="0">Photographer</tspan></text>
+    </g>
+    <g id="Group_1404" data-name="Group 1404" transform="translate(-189 -5914)">
+      <g transform="matrix(1, 0, 0, 1, 189, 5914)" filter="url(#Rectangle_272-3)">
+        <rect id="Rectangle_272-8" data-name="Rectangle 272" width="363" height="236" rx="5" transform="translate(10 -103)" fill="#fff"/>
+      </g>
+      <text id="Click_Here-7" data-name="Click Here" transform="translate(223 5835)" fill="#191e29" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="16">Kreight&apos;s web app completely exceeded </tspan><tspan x="0" y="38">my expectations. The user-friendly </tspan><tspan x="0" y="60">interface and seamless functionality </tspan><tspan x="0" y="82">make it a game-changer for my </tspan><tspan x="0" y="104">business.</tspan></text>
+      <text id="Click_Here-8" data-name="Click Here" transform="translate(223 5999)" fill="#191e29" font-size="16" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Rexford</tspan></text>
+      <text id="Click_Here-9" data-name="Click Here" transform="translate(223 6019)" fill="#191e29" font-size="16" font-family="Inter-Regular, Inter"><tspan x="0" y="0">Master of Ceremony</tspan></text>
+    </g>
+    <g id="Group_1403" data-name="Group 1403" transform="translate(-189 -5400)">
+      <g transform="matrix(1, 0, 0, 1, 189, 5400)" filter="url(#Rectangle_272-4)">
+        <rect id="Rectangle_272-9" data-name="Rectangle 272" width="363" height="236" rx="5" transform="translate(10 411)" fill="#fff"/>
+      </g>
+      <text id="Click_Here-10" data-name="Click Here" transform="translate(223 5835)" fill="#191e29" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="16">Kreight&apos;s web app exceeded my </tspan><tspan x="0" y="38">expectations with its user-friendly </tspan><tspan x="0" y="60">interface and efficient features. I highly </tspan><tspan x="0" y="82">recommend Kreight to anyone looking </tspan><tspan x="0" y="104">for a seamless online solution.</tspan></text>
+      <text id="Click_Here-11" data-name="Click Here" transform="translate(223 5999)" fill="#191e29" font-size="16" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Sonars</tspan></text>
+      <text id="Click_Here-12" data-name="Click Here" transform="translate(223 6019)" fill="#191e29" font-size="16" font-family="Inter-Regular, Inter"><tspan x="0" y="0">Videographer</tspan></text>
+    </g>
+    <g id="Group_1401" data-name="Group 1401" transform="translate(189 -5518)">
+      <g transform="matrix(1, 0, 0, 1, -189, 5518)" filter="url(#Rectangle_272-5)">
+        <rect id="Rectangle_272-10" data-name="Rectangle 272" width="363" height="236" rx="5" transform="translate(388 293)" fill="#fff"/>
+      </g>
+      <text id="Click_Here-13" data-name="Click Here" transform="translate(223 5835)" fill="#191e29" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="16">Kreight&apos;s web app is a game-changer for </tspan><tspan x="0" y="38">our business. The seamless interface </tspan><tspan x="0" y="60">and intuitive features make managing a </tspan><tspan x="0" y="82">breeze. Our productivity has </tspan><tspan x="0" y="104">skyrocketed thanks to them</tspan></text>
+      <text id="Click_Here-14" data-name="Click Here" transform="translate(223 5999)" fill="#191e29" font-size="16" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Alisha</tspan></text>
+      <text id="Click_Here-15" data-name="Click Here" transform="translate(223 6019)" fill="#191e29" font-size="16" font-family="Inter-Regular, Inter"><tspan x="0" y="0">Model</tspan></text>
+    </g>
+  </g>
+</svg>

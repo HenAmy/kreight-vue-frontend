@@ -21,6 +21,7 @@
           >
             Business Profile
           </div>
+
           <!-- Password -->
           <div
             @click.prevent="tab = 'password'"
@@ -29,14 +30,15 @@
           >
             Password
           </div>
+
           <!-- Notifications -->
-          <div
+          <!-- <div
             @click.prevent="tab = 'notifications'"
             :class="{ 'bg-primary text-white font-semibold': tab === 'notifications' }"
             class="px-5 py-3 rounded-[4px] cursor-pointer"
           >
             Notifications
-          </div>
+          </div> -->
         </div>
 
         <!-- Tab Panels -->

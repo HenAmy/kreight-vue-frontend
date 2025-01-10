@@ -110,6 +110,8 @@
 </template>
 
 <script>
+// import { auth, usersCollection } from '@/includes/firebase';
+
 import MobileMenu from '@/components/MobileMenu.vue';
 import axios from 'axios';
 import { mapWritableState } from 'pinia';
@@ -166,6 +168,25 @@ export default {
       this.reg_in_submission = true;
       this.reg_button_msg = 'Loading... Please wait';
 
+      //FIREBASE OPERATIONS
+      // let userCredentials = null;
+      // try {
+      //   userCredentials = await auth.createUserWithEmailAndPassword(values.email, values.password);
+      // } catch (error) {
+      //   this.reg_in_submission = false;
+      //   this.reg_show_alert = true;
+      //   this.reg_alert_variant = 'bg-red-200';
+      //   // this.reg_error_msg = `${error.response.data.message}`;
+      //   this.reg_error_msg = 'An unexpected error occured. Please try again later.';
+      //   return;
+      // }
+
+      // await usersCollection.add({
+      //   business_name: values.business_name,
+      //   business_email: values.email
+      // })
+
+      // BUBBLE OPERATIONS
       let userCred = null;
       try {
         userCred = await axios.post(`${import.meta.env.VITE_API_URL}/sign-up`, {
@@ -184,7 +205,9 @@ export default {
 
       localStorage.setItem('token', userCred.data.response.token);
       this.userLoggedIn = true;
-      this.reg_show_alert = false;
+      // this.reg_show_alert = true;
+      // this.reg_alert_variant = 'bg-green-500'
+      // console.log(userCredentials);
       this.$router.push({
         name: 'dashboard',
         reload: true,

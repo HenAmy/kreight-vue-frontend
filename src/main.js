@@ -3,6 +3,7 @@ import './assets/base.css';
 import App from './App.vue';
 import router from './router';
 import VeeValidatePlugin from './includes/validation';
+import './includes/firebase';
 import VueGtag from 'vue-gtag';
 
 import { createApp } from 'vue';

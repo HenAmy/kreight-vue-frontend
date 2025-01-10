@@ -1,5 +1,5 @@
 <template>
-  <vee-form :validation-schema="schema" @submit="changeProfile" class="space-y-20">
+  <vee-form :validation-schema="schema" @submit="onUpload()" class="space-y-20">
     <!-- Title -->
     <div class="space-y-5">
       <div class="space-y-2">
@@ -31,14 +31,23 @@
         >
           Change Photo
         </p>
-        <vee-field
+        <!-- <vee-field
           v-show="photoChange"
           type="link"
           name="business_photo_url"
           placeholder="Enter business photo url"
           class="rounded-md text-sm cursor-pointer focus:outline-dashed focus:outline-2 focus:outline-primary bg-white border border-[#ddd] px-4 py-3 w-full"
+        /> -->
+        <vee-field
+          @change="selectedFile"
+          v-show="photoChange"
+          type="file"
+          accept="image/png, image/jpeg"
+          name="business_image"
+          placeholder="Enter business photo"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
         />
-        <ErrorMessage class="text-red-600 text-sm" name="business_photo_url" />
+        <!-- <ErrorMessage class="text-red-600 text-sm" name="business_photo_url" /> -->
         <p
           v-show="photoChange"
           @click.prevent="photoChange = false"
@@ -48,6 +57,21 @@
         </p>
       </div>
     </div>
+
+    <!-- Business Image-->
+    <!-- <div class="bg-white lg:flex items-center w-full space-y-3">
+      <p class="md:w-1/3 font-semibold text-sm">Business Image</p>
+      <div class="space-y-2 w-full">
+        <vee-field
+          type="file"
+          name="business_image"
+          placeholder="Enter business photo"
+          class="flex-1 rounded-md w-full placeholder-placeholder bg-white px-4 py-3 border border-[#ddd] text-sm"
+        />
+        <ErrorMessage class="text-red-600 text-sm" name="business_name" />
+      </div>
+    </div> -->
+
     <!-- Business Name -->
     <div class="bg-white lg:flex items-center w-full space-y-3">
       <p class="md:w-1/3 font-semibold text-sm">Business Name</p>
@@ -115,7 +139,7 @@ export default {
 
   data() {
     return {
-      photo_file: null,
+      photo_image: {},
       photoChange: false,
 
       schema: {
@@ -190,6 +214,29 @@ export default {
       }
 
       this.on_submission = false;
+    },
+
+    selectedFile() {
+      console.log(event.target.files[0]);
+      this.photo_image = event.target.files[0];
+      // console.log(`Selected photo: ${$event.business_image}`);
+      console.log(`Selected photo: ${this.photo_image}`);
+    },
+
+    async onUpload() {
+      console.log(this.photo_image);
+      let response = null;
+      response = await axios.request({
+        url: `${import.meta.env.VITE_API_URL}/settings-profile`,
+        method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + localStorage.getItem('token'),
+        },
+        data: {
+          photo: this.photo_image[0],
+        },
+      });
+      console.log(response);
     },
   },
 };

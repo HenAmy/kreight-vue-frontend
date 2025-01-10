@@ -34,18 +34,18 @@
   </div>
 
   <!-- NAVIGATION -->
-  <div class="bg-white p-3 sticky top-0 z-10 shadow-lg font-mainFont">
-    <div class="flex items-center justify-between container mx-auto space-x-20 font-mainFont">
-      <router-link :to="{ name: 'home' }" class="z-30">
+  <div class="bg-white p-3 sticky top-0 z-10 font-mainFont">
+    <div class="flex items-center justify-between container mx-auto font-mainFont">
+      <router-link :to="{ name: 'hometwo' }" class="z-30">
         <img src="../../public/assets/img/logo-primary.svg" alt="" id="logo" class="w-32 md:w-40" />
       </router-link>
-      <div class="hidden items-center space-x-10 text-text lg:flex">
+      <div class="hidden items-center space-x-10 text-text">
         <a href="#home" class="tracking-widest hover:text-softRed"> Home </a>
         <a href="#features" class="tracking-widest hover:text-softRed"> Features </a>
         <a href="#testimonials" class="tracking-widest hover:text-softRed"> Testimonials </a>
         <a href="#contacts" class="tracking-widest hover:text-softRed"> Contact </a>
       </div>
-      <div class="hidden lg:flex">
+      <div class="hidden lg:flex space-x-8">
         <router-link
           :to="{ name: 'signin' }"
           class="px-10 py-2 text-text bg-white rounded-md focus:outline-none m-auto md:py-2 font-mainFont text-[18px]"
@@ -54,7 +54,7 @@
         </router-link>
         <router-link
           :to="{ name: 'getstarted' }"
-          class="py-3 px-6 text-text bg-white border-[3px] border-text rounded-md focus:outline-none font-mainFont text-lg"
+          class="py-3 px-10 text-text bg-white border-[3px] border-text rounded-md focus:outline-none font-mainFont text-lg"
         >
           Get Started
         </router-link>

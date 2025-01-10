@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 // Auth
 const Home = () => import('@/views/HomeView.vue');
+const HomeTwo = () => import('@/views/HomeViewTwo.vue');
 const GetStarted = () => import('@/views/GetStarted.vue');
 const SignIn = () => import('@/views/SignIn.vue');
 const ForgotPassword = () => import('@/views/ForgotPassword.vue');
@@ -46,6 +47,11 @@ const routes = [
     name: 'home',
     path: '/',
     component: Home,
+  },
+  {
+    name: 'hometwo',
+    path: '/home-2',
+    component: HomeTwo,
   },
   {
     name: 'signin',
