@@ -36,7 +36,7 @@
   <!-- NAVIGATION -->
   <div class="bg-white p-3 sticky top-0 z-10 font-mainFont">
     <div class="flex items-center justify-between container mx-auto font-mainFont">
-      <router-link :to="{ name: 'hometwo' }" class="z-30">
+      <router-link :to="{ name: 'home' }" class="z-30">
         <img src="../../public/assets/img/logo-primary.svg" alt="" id="logo" class="w-32 md:w-40" />
       </router-link>
       <div class="hidden items-center space-x-10 text-text">
